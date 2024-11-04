@@ -1,30 +1,91 @@
 <!--
 Requirements
-[  ] Google Font OR Uploaded Font
-[  ] font-size OR font-style 
-[  ] Five CSS Rules
-[  ] Three Images
+[ - ] Google Font OR Uploaded Font
+[ - ] font-size OR font-style 
+[ - ] Five CSS Rules
+[ - ] Three Images
 
 Select ONE Additional Feature to Add  
 [ no ] Feature 1 - Include a Static Background Image
 [ no ] Feature 2 - Use a unique border-radius
-[ no ] Feature 3 - Use width and margin CSS Properties
+[ yes ] Feature 3 - Use width and margin CSS Properties
 [ no ] Feature 4 - Include at least one more additional HTML page
 -->
 
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Unit 1 Project</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      h1 {
+        color: rgb(89, 73, 52);
+      }
 
-<head>
-  <title>Unit 4 Project</title>
-  <meta charset="utf-8">
-  <style>
+      h2 {
+        color: rgb(89, 73, 52);
+      }
 
-  </style>
-</head>
-<body>
+      body {
+        background-color: rgb(250, 237, 219);
+        width: 60%;
+        margin: auto;
+        font-family: "Covered By Your Grace", cursive;
+        font-size: 20px
+      }
 
- 
+      #instrumental {
+        color: rgb(89, 73, 52);
+      }
 
-</body>
+      #dogs {
+        color: rgb(89, 73, 52);
+      }
+
+      .instrument {
+        color: rgb(167, 142, 118);
+      }
+
+      .love {
+        color: rgb(167, 142, 118);
+      }
+    </style>
+  </head>
+  <body>
+    <center>
+      <h1>
+        About Me
+        <hr size="3" color="#8d8174" />
+      </h1>
+    </center>
+    <h2>A few things...</h2>
+
+    <ul style="list-style-type: square">
+      <li id="instrumental">
+        I'm an <strong class="instrument">instrumental major</strong>
+      </li>
+      <img
+        src="https://png.pngtree.com/png-vector/20220723/ourmid/pngtree-music-note-staves-png-image_5998981.png"
+        width="100"
+      />
+
+      <li id="dogs">I <em class="love">love</em> dogs</li>
+      <img
+        src="https://www.purina.co.uk/sites/default/files/2021-02/BREED%20Hero_0075_japanese_shiba_inu.jpg"
+        width="100"
+      />
+
+      <li>I love Laufey</li>
+      <img
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1Hbhy39egyud036FRc1yutqlhGBF7yrt9Ww&s"
+        width="100"
+      />
+    </ul>
+  </body>
 </html>
